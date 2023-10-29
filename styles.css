@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:ital,wght@1,300&family=Oswald:wght@200&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Roboto:wght@300&display=swap');
+ 
+ body {
+    height: 100%;
+    width: 30%;
+    font-family: 'Roboto', sans-serif;
+ }
+
+.button {
+    width: 80px;
+    padding: 30px;
+    /* margin: 0 3px; */
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    line-height: 10px;
+    border-radius: 50%;
+   
+}
+
+.row.special .button {
+    background: orange;
+    color: white;
+}
+
+.row .button:last-child {
+    background: orange;
+    color: white;
+}
+
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    width: 291px;
+    font-size: 23px;
+    margin: 0;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
